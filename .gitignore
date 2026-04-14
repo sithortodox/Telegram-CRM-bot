@@ -1,0 +1,40 @@
+# Окружение
+.env
+.venv
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# База данных
+*.db
+*.sqlite3
+
+# Docker
+*.log
+
+# Миграции (только версии — генерируются автоматически)
+alembic/versions/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Тесты
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Сборка
+dist/
+build/
+*.egg-info/
+src/*.egg-info/
